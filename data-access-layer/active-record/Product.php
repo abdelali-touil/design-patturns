@@ -26,15 +26,15 @@ class Product {
     /**
      * @return $quantity
      */
-    public function getQuantity(): Integer {
+    public function getQuantity(): Int {
         return $this->quantity;
     }
 
     /**
-     * @param Integer $quantity The quantity of product
+     * @param Int $quantity The quantity of product
      * @return Product
      */
-    public function setQuantity($quantity): Integer {
+    public function setQuantity($quantity): Int {
         $this->quantity = $quantity;
 
         return $this;
