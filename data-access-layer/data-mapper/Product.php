@@ -7,6 +7,13 @@ class Product {
     private $price;
 
     /**
+     * @return $id
+     */
+    public function getId(): Int {
+        return $this->id;
+    }
+    
+    /**
      * @return $name
      */
     public function getName(): String {

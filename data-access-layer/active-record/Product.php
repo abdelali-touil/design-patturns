@@ -2,9 +2,17 @@
 
 class Product {
     
+    private $id;
     private $name;
     private $qty;
     private $price;
+
+    /**
+     * @return $id
+     */
+    public function getId(): Int {
+        return $this->id;
+    }
 
     /**
      * @return $name
