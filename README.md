@@ -7,10 +7,10 @@
 
 
 ORM:
-| Object-Relational Mapping |
+| Object-Relational |Mapping |
 | ------------- | ------------- |
-| Database abstraction layer |
-| Quering language |
+| Database |abstraction layer |
+| Quering |language |
 | ------------- | ------------- |
-| Data Access Layer |
+| Data Access| Layer |
 | Data Mapper  | Active record |
