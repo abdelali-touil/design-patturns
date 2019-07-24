@@ -16,7 +16,7 @@ ORM:
 
 
 
-| First Header  |
+| Object-Relational Mapping  |
 | ------------- | 
-| Content Cell  |
-| Content Cell  |
+| Database abstraction layer  |
+| Quering language  |
