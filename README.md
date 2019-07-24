@@ -7,19 +7,10 @@
 
 
 ORM:
-| Object-Relational |Mapping |
-| ------------- | ------------- |
-| Database |abstraction layer |
-| Quering |language |
-| ------------- | ------------- |
-| Data Access| Layer |
-| Data Mapper  | Active record |
-
-
-
-
-
-| First Header    Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+|   Object-Relational Mapping   |
+| ----------------------------- |
+|   Database abstraction layer  |
+|       Quering language        |
+| ----------------------------- |
+|       Data Access Layer       |
+| Data Mapper and Active record |
