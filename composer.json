@@ -1,0 +1,13 @@
+{
+    "name": "black-skyliner/design-patturns",
+    "authors": [
+        {
+            "name": "Abdelali Touil",
+            "email": "touil.abdelali@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "symfony/var-dumper": "^4.3"
+    }
+}
