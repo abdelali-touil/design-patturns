@@ -3,32 +3,28 @@ require_once('vendor/autoload.php');
 
 class Singleton {
 
-    protected function __construct() {}
+    private static $_instance;
+
+    public static function getInstance() {
+        if (null === self::$_instance) {
+            self::$_instance = new Static();
+        }
+        return self::$_instance;
+    }
+    
+    protected function __construct() {
+        // do something
+    }
     private function __clone() {}
     private function __wakeup() {}
 
-    public static function getInstance() {
-        static $instance = null;
-        if (null === $instance) {
-            $instance = new Static();
-        }
-        return $instance;
-    } 
 }
 
-class SingletonChild extends Singleton {
-
-}
-
-dump('Instance:');
+class SingletonChild extends Singleton {}
 
 $instance = Singleton::getInstance();
-dump($instance);
-dump($instance === Singleton::getInstance());
-
-dump('Another instance:');
+dump($instance === Singleton::getInstance()); // return true
 
 $another = SingletonChild::getInstance();
-dump(SingletonChild::getInstance());
-dump($another === SingletonChild::getInstance());
-dump($another === Singleton::getInstance());
+dump($another === SingletonChild::getInstance()); // return true
+dump($another === Singleton::getInstance()); // return true
