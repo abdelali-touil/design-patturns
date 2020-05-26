@@ -1,4 +1,4 @@
-### Design patturns in PHP
+### Design patterns in PHP
 
 #### Active record
 
